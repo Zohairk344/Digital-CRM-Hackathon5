@@ -38,6 +38,7 @@ venv.bak/
 # IDEs
 .vscode/
 .idea/
+.agents/
 
 # Node/Frontend
 node_modules/
