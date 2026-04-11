@@ -1,0 +1,2325 @@
+{
+  "version": 1,
+  "skills": {
+    "Brainstorming Ideas Into Designs": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c426ef1bd633b46422f08b208688c30c67ab2c6bf9282a0de35d2a569ea2fc50"
+    },
+    "Condition-Based Waiting": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "7348d2176997baa1b9834ae31ff3f847a049479c2a2903e218f445219a1411d4"
+    },
+    "Dispatching Parallel Agents": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b212a445ff4f3402ac0add8a4753fe6077195e6091baac0fca744b2856aeec73"
+    },
+    "Requesting Code Review": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "4d4039a86e08a42534c71b07c6310cc61aabe3bc04380887a0a947c25323abe1"
+    },
+    "Root Cause Tracing": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "11960de6588484ec5dd2c9ab7e27a88b91269833cca6e191b2caa4b9587e72ab"
+    },
+    "Testing Anti-Patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "5a5d1a4c40722e126d7c9e4610c6a6d1ae53c767506e5d0185e27b43c342bbd5"
+    },
+    "Writing Plans": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "fba52cd6a1eac8469e35595b5ae7cb62f3b7f217a295e045c14ba4a097594718"
+    },
+    "accessibility-compliance": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3e91f124d66be32b7f16892c6bcfb272fabe990cbeee2e893d8815d21e0c4b49"
+    },
+    "accessibility-tester": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "435231baad95976ed624a3e63385d46d9151b04c8266662b0ccd5fcc0e76746f"
+    },
+    "ad-security-reviewer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "ae7ad8ba17200d6e6b4f00a060dd73c31fec1ff745d793d74a5cc15395d236de"
+    },
+    "agent-organizer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "6f193e3babbf8117787a7f7c57f99a68a3a926f278356a0f4739907f1a1c55f3"
+    },
+    "ai-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "5a0f83a0ee62629560d1226da1124fb245e8e1a613280028d77008f54894437f"
+    },
+    "airflow-dag-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "4dd93bbc245dbec9dd18504a82b864b5d70776ac8d8abd09b1796d299a3e627e"
+    },
+    "algorithmic-art": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "53021961e7b8782325fd4b11071a1b423ff4f069b0dc6090a66706f6a3798729"
+    },
+    "angular-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "5048a4ddd5c23aa1db23a7abd5086798e59c6ddb7f3e4abca380782d7332b89b"
+    },
+    "angular-migration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c65a1d5c9fceb7f1731993c2a3091dfe49f2949491ad88ba97ec7b5fa9b8df72"
+    },
+    "anthropic-sdk": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "95f78a7b3984a1ba1410e84454552ebc37ec49e3d5cf08656bf720054239f31c"
+    },
+    "anti-reversing-techniques": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "2457a4ef45870d7f07211b78c92235574bb4946699989e14fc32dccca5ab7a90"
+    },
+    "api-design-patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "83315e20ad6e848a9027197c46743e3ef8521b2f6acf39e5feba7a3331fa6283"
+    },
+    "api-design-principles": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "b242f962d5f78bf8bc147e92f2aa0341459b9f5f2f955e9867a8c41b85f22648"
+    },
+    "api-designer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "65bfb09bdc287487b68eb3f647eb8af49712f25b72032ab35d7424964566b9ee"
+    },
+    "api-documentation": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ae0f35fb7796bded8719be36bd319e89f2997d8a486f67a8438cbc236b5f3ecc"
+    },
+    "api-documenter": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "ee3f852ec0cca1688f45c2bb9441595a501d9fda44d2b878ba87cbcfcb7da9fc"
+    },
+    "api-security-review": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "319927a8330472912b7bcfba842fd463346c17f52393c38163c50c31c18726df"
+    },
+    "architect-reviewer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "b11e0ed635cf3f36603994ca997d643b21c4ea0e83c3f8f26a932f453ea7d1b7"
+    },
+    "architecture-decision-records": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "73b129025ba53b5d672474492aa8d8803dde828cb8ac2bd5f2798b98d28a9147"
+    },
+    "architecture-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "8cc99372e77a37fa40096bf8ae0895f2a8355916fad8b8cc34f74bb68c40b76b"
+    },
+    "artifacts-builder": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "2c242fe40afc0242ad3d5bc583cc546156b8fc3971e001043e3933561b2e9382"
+    },
+    "async-python-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3a53bc38ef4e884e8f4d9f9c35041710f6cc9ac3e851b78fc202adee380fb3ce"
+    },
+    "asyncio": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b0e4ea01aa57b38d810784fba2f141a69431157f6284d9ec896a08d52c179ce1"
+    },
+    "attack-tree-construction": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "e964fbb0ec6a3d189cfd178dcbb62683b8a8a19cff1d6a8a28b393c5f864f671"
+    },
+    "auth-implementation-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "371c84e03e4b456134fba5427096083b163716517f6210fadcffe887c5f1daae"
+    },
+    "axum": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "3d5de5d9112f36934329cd0763508ec2ac62e96d9bfa6ef3235a2be14e64565c"
+    },
+    "azure-infra-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "6ad302861ad997ac90f1e85538185744813e31116a00bee351e2e7e914eff8c1"
+    },
+    "backend-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9e56aa5c929beedbfb917fc1e0bddbc7569cd1f2caee5a0ea0e70b4c3eb4d2d1"
+    },
+    "backtesting-frameworks": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "1cd4ff5bb3666e044cec839c0923ec2b9801f9c902c082452fa78657e6dc87dc"
+    },
+    "bad-example-skill": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "5a5e3944d164fdb3bd1bb2f72e7fb47f01c53b11746aeafbd552820313a727da"
+    },
+    "bash-defensive-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "1b6e238276b8fd33965660de19abb586e8df0b0e514882b04a79b0ff9caba4ab"
+    },
+    "bats-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "dbae5e0bf9b48af43fbec603f26262a73d7cb4b1cfe06f9728148cb1e1da5a5e"
+    },
+    "bazel-build-optimization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "20fab70190088176458c8fcd9e4bdd7035dcf4e925ed138eacc2dd2fbe4f428d"
+    },
+    "better-auth-authentication": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "5a9ba10a8a77c4b74749a634bccdafd7b4f9f0a23c38ee69b5393e78f0a0050b"
+    },
+    "better-auth-core": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ebc74208f5258e06ca56c1a732d13959daabd2994600ad30c17d469ce67b7d2f"
+    },
+    "better-auth-integrations": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a9fe1ee71ad53a1411b7f0d802c09a2d8b67a70e02d11465feeb610def487b4d"
+    },
+    "better-auth-plugins": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a9597a5b1d2c5bba9eb03c6cfb00f271d64fa0065019479a8599d3f676807b54"
+    },
+    "billing-automation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "26eac9933943cce48c7a1e2e192a8417fe21070b18d5ba557dc59d152fbee6f5"
+    },
+    "binary-analysis-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d27b0dd6eb20398c353280624d27705cbce408a9cf26fa1b046e1d63110cf3f7"
+    },
+    "biome": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "0963f4f061b5c1156843c52019b64e1c55587770de654d6cde3f7589c13b80b4"
+    },
+    "blockchain-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "786c76c71f0b6675816bdc60e12fd5d5af5332aeba217b89eebcd9f7fb9cb431"
+    },
+    "bmad-bmm-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "f058a57b9fe9a0bce528dab315500e6350f7589f746a8ba274578353a7439990"
+    },
+    "bmad-master": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "8a72c29b237490ce37e8cebf6f9e3eef3c73b7c219a781e7a0122f2fe4f7307f"
+    },
+    "bug-fix": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "d788ae978e008b3a51409b905d0b7ebf64e03240eba8c9fa070e1b94384f7820"
+    },
+    "build": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "2b60569af966aea4d6fd1319d8e7b1007af0d6428002a15b9af853079ecf357b"
+    },
+    "build-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "8499cdeb67a2070864d0ddbd8924a30afadec8aa17157bc64c5d1e53886cdd4e"
+    },
+    "business-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "2caf9e7729df1a66faaf7df089e4afda0cc49d28bc424bed9e3c0341ee474b5a"
+    },
+    "canvas-design": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4c336831b3e76b823ea033f293b52a5fb2f6262012ba45d535f961e70cd6ac41"
+    },
+    "celery": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "88b3562e6a67ac6766439f9a8c9ec99b685865a08de464aaa177a15a3c2f79ad"
+    },
+    "changelog-automation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "67c6e536f306655d682651e68b9966c7c9a0a3f31ba8d8a3ce7e596d3b504e36"
+    },
+    "chaos-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "27ee9988681fd56a0179628766fe359677410532fb9a1334163ee0f41941fb05"
+    },
+    "clap": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "8082c01656faf60587e72020c487a96ff5c1b4a9af932b2688cf7b5f870d2b8a"
+    },
+    "cli-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "764fdaf66103601bcbc2a5b08346dcb55209d9372c42edfb545d513dc22182b1"
+    },
+    "cloud-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "f61c9cd814abd380bb566e30f6e0800976633bf518e228cbc723fef17e3e66e3"
+    },
+    "code-review-excellence": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "89b2a6a234f6368b12f0232e1d77bd5ed894115114edf67eb1f2976e153664c0"
+    },
+    "code-reviewer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "af61cfc8022e6a2fcf2b90f6d841a86b13b1bfbd10be678af831fcee2191875b"
+    },
+    "codebase-exploration": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "a2f44fa01b39eadf38bb01d0dc72ccdcd2a6ce20434aa4efb2c9ea8118db4c00"
+    },
+    "competitive-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "73b84634163ea2401d9f218d6c451dc642c5ced3365f836ec42164c82c179bce"
+    },
+    "competitive-landscape": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "b49f4a5183ed8954acc4bcd9a93cfe659f4d733a33334fd17e88c1669695512d"
+    },
+    "compliance-auditor": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "b31bb3d5f1315ba4b0925b39bc43962f448b61986cf4f62c35826b46125e9d19"
+    },
+    "content-marketer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9b428bbf828bdb3c7aad182207040965f550c12bba2e972e80f613c0a3e66c75"
+    },
+    "context-driven-development": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "bf38774d71de26b38ea1887ed885f9e8ddd694940f58acf3ad21874604eddf37"
+    },
+    "context-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "3e568205d9673e4d35aeca4c02ebc9483a0cd1bfe9e6e35de30fbc991864d5f8"
+    },
+    "cost-optimization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f64404d2bf3c183f48077e636f1f74a34250a8451e1c85919c5c6f8d91a6fce4"
+    },
+    "cpp-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "59980e338c546edf11ca1a5d30b10e59688d141d859b1a147ecc2b936c6a2628"
+    },
+    "cqrs-implementation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f7b64fb719cc61b438d80f47841c7d5bd4c56930bd0d5d1e462a0ec56b3691e4"
+    },
+    "csharp-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "6aed05fd1dc3bc4e6435b3153174c16e13e2e799ef4faad9aa64beca5117b41c"
+    },
+    "csv-data-wrangler": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "aa7d53670d9390a14eb40c206e34896cbfa99c7e4a4a17fe206fc2997c7af575"
+    },
+    "customer-success-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "53e439de4b2a73f6dbb20da19612bd30aaeac942506cc40b75bbeef6e2879c14"
+    },
+    "cypress": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "38f3f01424061f7a6bc155193a2d56c346682e44228c4e81eafc85ae24d360f9"
+    },
+    "daisyui": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ad61f0850a111a44ef32b7a0188b34b0113013d495ba031bf690018909e96374"
+    },
+    "data-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "fce9b1b93a0162ca88b101f9f83bdf763d06918d0aac42f0c2e93a2ede56346b"
+    },
+    "data-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "7f52ecb306d4aa1e46fd6576b9ed814fe1f4dd34f51f488a35bb9c1b17617d71"
+    },
+    "data-quality-frameworks": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "06744260a0a89bcf085edc21184d2abc94691693a969e679c6c0c544c0802bdb"
+    },
+    "data-researcher": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "88ee5afabca89b3f3806318baeaab940b40b7e85801761cc4bba7499de6fbcde"
+    },
+    "data-scientist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "c5f9e3417730739a7f13a33bb8dcd03dca49ef6dbee542bf4d6718d00586f010"
+    },
+    "data-storytelling": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "100085a4212149ea6b1a1691e5e845a7ae184ecb2d4cee561b435e7ba5f5a6a2"
+    },
+    "database-administrator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "0afde3fd2ecf7960da78e8b61227a4fd589b9e6d432e031d3a9ebe2aa38902bf"
+    },
+    "database-migration": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "67ec5c57e11f548538bb9a25b616ccc2ea57bdb11ef491e28da6f04b192a71df"
+    },
+    "database-optimizer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "832780969c3132209056315dfd37475e7195da548829133f94b91c4e48e7c6c9"
+    },
+    "datadog-observability": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "eac1147df20c772dde33e63973c288d86206bf5a1ef204175cb50ad8702a1db7"
+    },
+    "dbt-transformation-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "ec1c057fa5f32c481fd66c8c1d79a6b60f6fce1988abfd437981edeb73a79c89"
+    },
+    "debugger": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "5a5ca57359b645d44974d028ce0fbd1bef7a1590c7b66fbc44710043d6da6d61"
+    },
+    "debugging-strategies": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d7d8542d2205ebdb547d14dab24f467e334f73cfb30c4458888f5431713ca82d"
+    },
+    "defi-protocol-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "27238a57d6b25cec534149e30e6d4453a5bd40b8504e0203492c6a872c2759de"
+    },
+    "dependency-audit": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "619ab9de2b40726913c882e60eed48b2ec2e18d09a963692d5faa9b80c4cf823"
+    },
+    "dependency-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "d4a6dd3f39cf3d02a166c3e6faaedfaca836fbab03ef12bab1a16022f954e0a6"
+    },
+    "dependency-upgrade": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "5ed787b9020041c988d0b4932643d816ad3a17bf2768d7dd7bcd453af136cde5"
+    },
+    "deployment-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1f0ca203c54dee1c4bb9b331998c8a919193bd3670c463fe09ab934eff281462"
+    },
+    "deployment-pipeline-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "b5fc7536413e439d9b5abe2d7fef68a7ac154c42282c1d3e53a367b9442a5dbe"
+    },
+    "design-system-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f1554c36a832c3586b69294c8a32e7c371edd4a42bbef9aa5ca4394769d3511d"
+    },
+    "devops-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "b79d80720368779b4098a7e6d37f0782da0c2376b5a6016c5dfbb9bbcefd15b6"
+    },
+    "devops-incident-responder": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "26cf44f1062f381ac8042b7b80c7f09bc8da95c7cb1a7e08aa173a3e86384ec5"
+    },
+    "digitalocean-agentic-cloud": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "14255dcd8feb24140a3e4dd3d87a0b6aee6e08c2890e397c12c76460f4f7264d"
+    },
+    "digitalocean-compute": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "4ba03c7d5773ff0352ba5e14507cd60f961332a0972219bcf225959358026065"
+    },
+    "digitalocean-containers-images": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "1313a527adee6c76ab09d3b42e569f43c0071918bd992c1028c1b1b04a585395"
+    },
+    "digitalocean-managed-databases": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "452bd93b1f533f8dcbb18614cd67d7939ec92f2d6aa4d97e7ccd517fdf91157a"
+    },
+    "digitalocean-management": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b2016bad8e32764bf68dcfed356e7a3d212bb521d92410d0905095e0e561ec6e"
+    },
+    "digitalocean-networking": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a21ddcb11e66fc4bb0be6befd3bbbd12552a235a1139feed1e28fa32b3e8b3fb"
+    },
+    "digitalocean-overview": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "94236caa23a54806ce0c9cf99f0e308a5cfee63e76e516a2ea41d2f4f0d85140"
+    },
+    "digitalocean-storage": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "bea75610e3828031aae0a5e690bbffc8c02d853c22b17e91fac83d2d9732409a"
+    },
+    "digitalocean-teams": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "52ac1546ada109943cbeccf7eb6c513896eb953a247db8dcc4636deffc6228d2"
+    },
+    "distributed-tracing": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "488e5574edce8448e815acd8f08731259fb885d6773f57e1d7e3160c0e5e92fc"
+    },
+    "django-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "0754607979cd6ab1f1897edfd53146658f5afc93cce566bccc3c27e37fb0bae0"
+    },
+    "django-framework": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a07513e31cd9c4fa5e329e496845f2750e47e11d8fc73735370e70b67c3db0ab"
+    },
+    "docker": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "1bfaaac58bdc283f4b33e308fd8ceb73b0778b99522bd728a9f83094d8ae218d"
+    },
+    "document-writer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "ff19be1612daadf88ba1458e8301e3c3e804c7cd4cd6c69a2ca4e0eb79c4cac2"
+    },
+    "documentation-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "71fdad8a48ab248c5a760ea41826572722b1a386a03135e839a9ebf91a5a249e"
+    },
+    "docx": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "3a1aabb5e10a171f9283094f3e952d8ee19cbb8051c65924385c65ca3e895021"
+    },
+    "dotnet-backend-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "624af9f8faea713dadaa51fc2f2040a4b365b4e083b9b9f82d7e9df1f627ea79"
+    },
+    "dotnet-core-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "023e22ba7dbc57287495afffacae631e7ab1c76f3fd1ad8f1c09022c0adde837"
+    },
+    "dotnet-framework-4.8-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "a44615f392edad0fdd1ffc1cdf864f709deb740e370b23373b7c70aa9906a9bd"
+    },
+    "drizzle-migrations": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b5e3d1249589aebf83c8308f8feacb6da6e38a21995946ea5a6a6522da898507"
+    },
+    "drizzle-orm": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c5132317134698624d023cbbbb612b99d2b20f532f6d1417639607cf401f03cd"
+    },
+    "dspy-framework": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "385f32044ea78bfb31e52e7c9aa2dd31ceec999d935304b19739ebc1d7927f09"
+    },
+    "dx-optimizer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "906356fa607488e5d2476b8c2213603e90fe33153d4a1dc637f025409f4b60af"
+    },
+    "e2e-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3425e335940b8f1f4881452603252385f9119159632dc211bc8c8a375f4619cd"
+    },
+    "ecto-patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "8a178b3ff1cc461ada4afcfe659b937cee1cbc536a5c324f65b8f4db7e687e1b"
+    },
+    "electron-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "70428812ebfb3b3069fe2c819ae50e95872c61498d8e0b56e9faad728134f1e4"
+    },
+    "elixir-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "7246969e5f94efc25f92388f4858961fc647aee55c03fae5973632eddda2dd1b"
+    },
+    "embedded-systems": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "fdd368157a4a670edd15cab885cf56e1a5d594b50a6c068446a1271778ba66bd"
+    },
+    "embedding-strategies": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "64e7be804541b9be3c27b2aaacea794e854f6b90d234a68fb142dde8441a55bd"
+    },
+    "emergency-release-workflow": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "95d5cec2ec8735af518816e2e127e4103a63aa37ad842c7039da7a032b18a7d8"
+    },
+    "employment-contract-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c4c630d7cfe61ccf8eb10a44ad95bcda3bd875338e7615c340a76f1a2e980b40"
+    },
+    "env-manager": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c02ce0bc48cd7315d07021ac62fb67c3cf3b1d8f856439d69af4ca3d42f7e41f"
+    },
+    "error-coordinator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "de78cd9ffbf8095d9b3734e1c7f94f5d7ecdbd7165f09f3e11d810e6943cffa9"
+    },
+    "error-detective": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "cbf05102dd60be25f9e632dc0692eee7fd11e94be562a44dfaa4706aa8a673e8"
+    },
+    "error-detector": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "8a677c94ec19acf4ef9c6a00e617a9d13900b613ee13e5fc85703e8371962c9f"
+    },
+    "error-handling-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "bf0cc90f11c0b249036666117a8b1dd1490cbbc252103e2f7882f64a833a8004"
+    },
+    "espocrm-development": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "6ba89275ce6bb3c2d19337ba5f870a48c5ec11b92925210a59107e03f489daba"
+    },
+    "evaluation-methodology": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "832217a714e377ba7e1bbd7ad2800b49f46dfcf7730be231ebb836a9d441b052"
+    },
+    "event-driven-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "31bc535ee747ac538c2402a600ae0912cf4753e8e4459fa318151e513b2e8783"
+    },
+    "event-store-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "1ab2f1ddd3f9fdbffbdf28d4b940bc8bd97a90e3641a4ef0b8b08d59a1dab4f4"
+    },
+    "example-framework-skill": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "0ea1ffa871861356a1e7b4d6222a2fb35a1d8bdace817b2a610a392e24a622f5"
+    },
+    "express-production": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "1f2757c681d7f0f1a7e55398c12f5382f08437a5757010bdbff078fb28691d23"
+    },
+    "external-reference-research": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "6ec724484ab494d55ff8f5d31d39f1f19fe3a9341959d5188e247bd182fb81b8"
+    },
+    "fastapi-local-dev": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "17c32946bb8453e477f0f3317c061b978412865b933166cc9ee35e84483b0ea0"
+    },
+    "fastapi-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "1a5fe66bd2683afd1db9afdf37a25cd8b9195c369c98489333badf0406fc91b3"
+    },
+    "fastify": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c7483cc5fc5e8fe77ff21ab25989f505953c18481f4f046a0ee61214e235d2b5"
+    },
+    "fintech-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "278f537181898e88361f6615c0e130ad87e13fe508b0e41e2b107676347825a6"
+    },
+    "flask": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "f30edac7445e7ac01bc9d7d1e9b385156c2b85410d49ecd48f96a60be1333e7a"
+    },
+    "flexlayout-react": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "fdac29a5daa3a7220e87e2847358393f53f288526dd57c7a24802f3066c4bee1"
+    },
+    "flutter-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "f6b2a446787213598ff6f019ad13cc35fb95009dd57caeae6ed780e1ca1349ae"
+    },
+    "frontend-developer-skill": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1994858dd3f51fa6f6618a9f5efbb49603354fd7680de9f960521f63f69177b6"
+    },
+    "frontend-ui-ux-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "b26907aa12835bc6eb9c2845d4177ae8c4cf43b0171f4b9fa8b59e9303a5b45a"
+    },
+    "fullstack-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "59c289f3f0a2dfb9f02092c066a83f25176573028ff910c637c190264bc52b32"
+    },
+    "game-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "7ad5dde672907d02487cebab70c5b3c49bf671260dae7a263f592e16faf218db"
+    },
+    "gdpr-data-handling": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "38f10132530bbf4397577ce7c5327ab93d98554f5341b6b89e60bc8569f25b83"
+    },
+    "general-purpose": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "47b46befceb4f3a5a8b5b5bf400be03924fcf489acef608f0de087e011401ccf"
+    },
+    "git-advanced-workflows": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "aa06b88293eb756254c8da0d5e8e5795d1a5948e5fb9d69d0c5288d880a2564d"
+    },
+    "git-workflow": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b4ce8119ffb8ef5ddff8bc339849abd668ccda8cd2a51ac70dbda5700a64bbb5"
+    },
+    "git-workflow-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9b7a5ba1974a8b0876ffbcd56fb06e3930fae0684aab345df6009f4d893fb419"
+    },
+    "git-worktrees": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "e44af9765fe9a2c0c15a800412126da5a3882a0d8f6905c2ab7a4a1bb672b550"
+    },
+    "github-actions": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "746c0d8908672557eb2a8ed2d8adf59b63950d0db42220c0fe026a6b7ae7d289"
+    },
+    "github-actions-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3dcb8b0c64ef38bb0fb03e4c9a39084927a55fd229e91fa48af0673389389fe8"
+    },
+    "gitlab-ci-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "57bdd112c2e57dc466c9232c9bc41c6f1c5a4e355076733f30f0acab330e7b23"
+    },
+    "gitops-workflow": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "ebf44f4691ca21ba7ed5886a05f2e58295a95afb3216a4c926e05565afb0f0a7"
+    },
+    "go-concurrency-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c5d64f600ef4ea2636e8a4452ad90d2ad2726bd9bb3b9c370c7b6397b5f974aa"
+    },
+    "godot-gdscript-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "700c3e7696790ece30d0f7f48245386493a8857da592d191356211c2b843fdbf"
+    },
+    "golang-cli-cobra-viper": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ddc8748e5c17711adcc68cf28decbba3855275cc3e910a0b74f77a6250302220"
+    },
+    "golang-concurrency-patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "77c1948d78022211dfeb6cc6da0b07b87c366e7821af0e2b8cf29e9b2a6c9ba6"
+    },
+    "golang-database-patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "21837a15ee380eb2b698eb4deaa8435f8e7c4691809a4fee6728d85692b7770b"
+    },
+    "golang-grpc": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "768903131914d236bdf9b973ec575efd30d726a2e9bc8333ca330ad8a1cd8a8f"
+    },
+    "golang-http-frameworks": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c4bfbc1a761e79eb2ccd05c67afa5ceecc79986ab49c6c486d995223f5a9f324"
+    },
+    "golang-observability-opentelemetry": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "67f0c0b1156000bc3df2bde4efaa67e2231b8a66f26e9f04e6187352e634f05f"
+    },
+    "golang-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4363addfa58a5f01155e8d8865ce6dba29d614b6a7798c56ec09825d2b71f0b2"
+    },
+    "golang-testing-strategies": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ff4e3aa18d12c58a42928668ff0a351f31a39c8c49570e45edce930fd75ecc44"
+    },
+    "grafana-dashboards": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "343d0837e189ec862ded673ac9c44b78890cf142666e216bfb54b7562a9021f1"
+    },
+    "graphql": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "94f341db1f8f60bb385fd9d23411a631efe01efc858eb938985da380498d86aa"
+    },
+    "graphql-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "8f7aced7b1eed2c9c4991c16c758d5ae251bc8dbacf0b0c2d44272ec1022b177"
+    },
+    "headlessui": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "8a8dedb691e696819053a9567fb6da732fe6256d266431f73db3bb72b8f95078"
+    },
+    "helm-chart-scaffolding": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "b207850ab452b07e85be10c17baa38a463681b08c7bc12331c24c0c0e7b52453"
+    },
+    "homebrew-formula-maintenance": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ca6a72cfc4f3fa0fb02fa1cfbd367bd19170829785436e0e3bf75ee0819d9f05"
+    },
+    "hono-cloudflare": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "370908a19c58edc71fa299db9380b164b2557b13f5bf73848ad8a9e3b10be8fc"
+    },
+    "hono-core": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a2b78341af0329fe68c9e2869df32ccef2b83b887f637b23628de0227e92817e"
+    },
+    "hono-jsx": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "5ecd7f1868d1f73ef34dfefd488f26156bec66657ca197c46652d726dd8b84ee"
+    },
+    "hono-middleware": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ce71fcadff382d989a4b45f8c44dad2b2859dcc116acca879c3d6af971d77299"
+    },
+    "hono-rpc": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ee3e9892bcdbb38c1d75f667c1b9c569301cc63189c9e46ba4da52b8e1713929"
+    },
+    "hono-testing": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "9d5414b48c43a7e76414e184b1fcc5024d5bf425ad3062eb639b4d4c533dcf07"
+    },
+    "hono-validation": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ca28452f457873604a11112025acb567cf11dfb1bfdd56d1c3b93737ba21dff7"
+    },
+    "hybrid-cloud-networking": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "924c2327b9f369f186f56f11f291a9f5196d8a53ed1d73a5b65acf5a6248257f"
+    },
+    "hybrid-search-implementation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "e66938bae68e273bb888e341b4d3001952444335e22b2ccf98ce445b27a66aa7"
+    },
+    "incident-responder": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "917eb8319c5c5c01221404824b0755a50d2316371d9fb5f267c6553b5d30a491"
+    },
+    "incident-runbook-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "2369415bd642b05eb7d6a0ca8c42f0c28014bcdbb3d6aac3f87c23e2b53f1cc1"
+    },
+    "interaction-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d2e2127b91c76b2ed6706ce78bfc7eddcb6b340333f94d3d53d9f65e3253dea2"
+    },
+    "internal-comms": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "77818cb8cb06dcdd76816d1290b9fed994c92d9630ad51d299b370bb4d8dab37"
+    },
+    "internal-comms-3p-updates": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "790eaf753c5e4f30cdaaaf44ae0a9d6b358fa06b676556283614f92267708da3"
+    },
+    "iot-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "e226e98a8ac68392e744b39cf2d5056c3ef3139676e092132102fd4dae8b4f90"
+    },
+    "istio-traffic-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "0ab6f4783b1c706c33a2d17f4f4dee5ce1b5543ae58671a20b4c763c2c43997e"
+    },
+    "it-ops-orchestrator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4ade72010143001afefdd7aae4cfca8789442e63568071c969965fafe988ba66"
+    },
+    "java-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "22943f724cbdd99872eff3309706d51b0c28d1f8fd778268703a6c0f2cd8450a"
+    },
+    "javascript-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "f36a31a8888b383da41aff8c5f4ca7c52e7fc51b72161e6ab83b0e3e388c89b8"
+    },
+    "javascript-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "325957f63862a4ef54726b34d3cfad105a918fcdcf6d08e11dc8d803dbd2a7a0"
+    },
+    "jest-typescript": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "73f2c7763af1cd9500148d5aff3b291741f5173caa4ed9cbde44558941c42411"
+    },
+    "json-data-handling": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "15ea61ff1c40f302e0f43672149b0202a8caac09b405d4132618108f343aa312"
+    },
+    "k8s-manifest-generator": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3c6e45b88f29970a515b833eec9d42314abb3a3d9d358952a5ba92a8601cee1c"
+    },
+    "k8s-security-policies": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "0252ebdc6897b87cb45987177fec4afac07aa808b7be777774a1d38092adc7a5"
+    },
+    "kafka-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9ffb10f64da211e8780b53a34c4b89048e7a051ff8e6e075a96ac323232ca6af"
+    },
+    "knowledge-synthesizer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "effc09cf89aa61ae819cb294b1dae6fea9cafbbaab841190f34e2d263762de8d"
+    },
+    "kotlin-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1ce7d23ece9ca2a0497d9608460fed942e9a9913149e9ed1fb65aa6b873056cd"
+    },
+    "kpi-dashboard-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "450bc47e5845632aa4363da7d45a823815c42a510c8c122b27894a920cda2e61"
+    },
+    "kubernetes": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "28248a117042e9aa5505ff012e86965609e7a0cdf91ce9599408a7041c52e24e"
+    },
+    "kubernetes-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1cfb8a572bf8150ed141b24cd557319e6537b499a204a949f43be5819307b274"
+    },
+    "kysely": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "9e4b0c6204bede219b7772c05155a8636c5cee020cd1e0864078be0ae23b15ec"
+    },
+    "langchain-architecture": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "55eb886f6590654361b472e19f4364d5be3011253bec8d0baeca4736f06c8c7c"
+    },
+    "langchain-framework": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "701f4f074194402137ae2c30c96861a8caec9fca289aa7acb821ef44d7f0f9ca"
+    },
+    "langgraph": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "7cbdf7ae3de8d1f7f21083ebc82aeb2060d6700f2ce9af1dac8c4e66e1fe6a3e"
+    },
+    "laravel-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "a1965b0faaba6502c75ebd41826053c7ad416fa17cc80e9889261d4d59738443"
+    },
+    "legacy-modernizer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "25cdcbf0c1e6bf7c8164dd3df84ef165692d0c9e9d608fa21ff508d3cba7b488"
+    },
+    "legal-advisor": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "55d3d456ca9718990386deca7a222da91a67af55f3b4978dff2240f96b629ae7"
+    },
+    "linkerd-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "cbef6d243d125c3accaa9081ef63f62ddecaf18f2a83993484a1661baecfeda6"
+    },
+    "llm-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "bea13e8f6fad115e57767e8d3d35a8bdca874c7e2ddbd60e82c8a02a152e5f14"
+    },
+    "llm-evaluation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "de67db2aef120e482dfa2a2be701307aff77a68c7789b36619ba1a4251fc2adc"
+    },
+    "local-llm-ops": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "094a75e22f145f947d189448bfb9ea1d0c914f352894cf82710c85def354d32b"
+    },
+    "m365-admin": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "a7be504e845744944d3e5fdd3cee1a55b200ccf7af478dbce2130140677abc1c"
+    },
+    "machine-learning-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9ee82bcdf7af1efce0672befbf37187806dcd31f11a54284489b79b15b1265fb"
+    },
+    "macos-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "bccec2630cdcac43c6da9dd32eca345803a3f953f474486803c841b556c7a58b"
+    },
+    "market-researcher": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "c49beb166e68c1cf84210a66981ebbd45c3e7f21f70fbaa3e43f7f0f60a98ede"
+    },
+    "market-sizing-analysis": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "97924a1969616e2fa4811cb00fbd7ca943d9c7038fce4b2d2ddae8c0309c8691"
+    },
+    "mcp": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "7915e0ad04add0afe24b61d16cfa0ea89deb2708432d96e4ae36e424187ff80a"
+    },
+    "mcp-builder": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "905ee1fbb79406e5241758de994820f189b31535c82d31c663943e895b810a84"
+    },
+    "mcp-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1729a49f944d3d49eb489d76c5b6a009e3da2dabf279cce66fcfec859d2fc719"
+    },
+    "media-transcoding": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a41d349723ed7d2bcb0670b2fb21b6a6fd60292dc2effa82a159f7583861cffd"
+    },
+    "memory-forensics": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f44ba564132738c7d5fb2434e5251dbbcac407385d894177abd06b5fe47b4724"
+    },
+    "memory-safety-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "5085d0511e0fe294250809fddeeebd37754ee64978615d38c0ca9052c837eeb8"
+    },
+    "microservices-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "62993279c89328140ba8d850f3a42deff08e0acc2f94935d1500b0ced7e2ddd7"
+    },
+    "microservices-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "8df9775505ca517ba69a5a2ca2a32333f8ed0cf936dbf60c1d411f13b628cfc6"
+    },
+    "ml-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "24444549e0c995b66d2f793a546313619cf9e731f417cf9fce0cc15a334d42e9"
+    },
+    "ml-pipeline-workflow": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f72d6581a0d4422211378315b58096b6782976f29247be787abbe44f5f49e97c"
+    },
+    "mlops-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "7cd9022f13ea8d5cdd69ca6fec5db96a1ff664d6906ad17d361ed3df53c8d8fd"
+    },
+    "mobile-android-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f664cf000475eb1fb2e61dfdbdfd311cca595154ddc63e76ac6444a07b86346a"
+    },
+    "mobile-app-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "151d5cdf4f93a6cf650684aea7ce37da89acd8aa6630db68ab952a20e04e0012"
+    },
+    "mobile-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "0ff14c97ca3c41d9235bf4c769ed38c3b4f4338a735f3d71c88532601b992f54"
+    },
+    "mobile-ios-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "30f9f969f4fa664addff529ca3f62352f951cd672e6f10b8a9ea26fb5c55b9b5"
+    },
+    "modern-javascript-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "35ec9acf08dabb77ca240330d10dd1a562ca869fe75e67ae12c4e472eb7fe498"
+    },
+    "mongodb": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c0c536b13aaa2feaf14cd2e6f39fd981eb853a66acd6fffa40ba4ea7f23cf904"
+    },
+    "monorepo-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "4de056e92cfea38bf92ca8217864588e8f32130f57798d2ef72ace27385ea4c7"
+    },
+    "mtls-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "de2b9c5cc5e39823e12e1deb73d5538efe5a89feb52b359020b9a158a63e64b8"
+    },
+    "multi-agent-coordinator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "ed195e9dd9ee2f09089bb3cac22b7c538ddee35670a98aa2427be1f20ffbc53e"
+    },
+    "multi-cloud-architecture": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d97aa1e5f09e48bd20a38208c35cee6c8d4f5b63b2f56e2862df3d8c6eddea77"
+    },
+    "multi-reviewer-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "aa427e8fc8bd561e35c1528b7149cd4b17b4c24bbaeffbf8f5ff3cdf65b354b5"
+    },
+    "multimodal-analysis": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "09edbaf94c552e2ed2c43a21a9fee339e46faeeeae28294eb7459632279f8b00"
+    },
+    "mypy": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "f49025ed7a0be7d59ddbc5552b5c3bf44c8bee8aa7c80740fe876b59c2326210"
+    },
+    "neon-serverless-postgres": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "5c24e599a00a18cc04ec13cee6edb3a0483b730a028b1330356c64df4fbffe93"
+    },
+    "netlify-deployment-platform": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "8c868aaddcf349e6e4e7ca3776cdf0b06721fb5f3cf4ab46e46682686d1cb9aa"
+    },
+    "network-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "832bc3a32d269674d8ada6b9adf4f7c84ff80c88a074fd20f653259dbdaac4c7"
+    },
+    "next-best-practices": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "c31ddd68ba5798a79a516c619b1e1fc4408cc4876ad600fefa4f5add4425719d"
+    },
+    "next-cache-components": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "844401be868754beba2e7dc2c66abbe08b740eeefdec69c630ff6cbd81cc4c62"
+    },
+    "next-upgrade": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "082ce8a4aaad096baa8e38f90a4221b0ae0015a70649e4e6c647cc5da4e59dcd"
+    },
+    "nextjs-app-router-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "04c1df896cc2c9ef824d618b95d21686c5b8e24e5cb32b3d6fe9d97d4b661536"
+    },
+    "nextjs-core": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "e8cb0c3e8b70676c4015f337875b5a9269d480095a3dea7b6560f2ca7474044e"
+    },
+    "nextjs-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "f5e9b2dd9f2a1c28e65f3b01b0225e062772b0d6225f2aabbffd7f88092cb508"
+    },
+    "nextjs-env-variables": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a89cbf737e7c8cae3f33b3a334f1139b91015b00fe37fb86f8e44d0914b7f7b3"
+    },
+    "nextjs-v16": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "abb22505231738f8a554adbe0f8cba6aec4cbf5b0f3f61c1d637b18dd98967ab"
+    },
+    "nft-standards": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "38af00d53c617d14b783e48a8b1a7f0053b07638bfc8c874f6e351fae5b8cbd3"
+    },
+    "nlp-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "58c94271b8b3832559a5305270c2f6d80c937e5b549eeec3372691ecb499d2a2"
+    },
+    "nodejs-backend-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3d6cbc12f720d8f02e1936c3e7fab78245eaa69500edbceea93d493d4ece6094"
+    },
+    "nodejs-backend-typescript": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "79f4a0e10f8ef2ab4ad25898c5e1d0a261d839d983739e2d9c6a8c6a7d2282d2"
+    },
+    "nx-workspace-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "bf70cade2a77aec8298cc983f07f7efdb60aadd74715ea5ca34fb26006046358"
+    },
+    "on-call-handoff-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "83eafc9c1ea83fe72195b0ac79f3bf72d4434c2463513f69d2598ea113762623"
+    },
+    "openapi-spec-generation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "21be7865a354c4d1ede71830d478ec5442bb60305ef4790b0c7de571e8fe182d"
+    },
+    "openrouter": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c832f500da07224eb85ddd32c49d84193e2dc778bf47d92e9e43fff4b9697160"
+    },
+    "opentelemetry": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "07009b14341d7441cb31951b42287f986b6c4b4a9496ea03ef3ec6f9715bd7b7"
+    },
+    "parallel-debugging": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f50fe7c87e4379f1f975dc2417952ae9cda0e2ebc09e4e69d6be85c38f4f0af1"
+    },
+    "parallel-feature-development": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "a081b1d98bfa9bba52096b1d540310f484140f75ce2bf0b84c4609cff06def26"
+    },
+    "payment-integration": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "63c18053264d3d04106e2f25af216e8f47e856b943ebd75648196403a59a92f2"
+    },
+    "paypal-integration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "31587378379f3a6ae5e3040f3602a9b9063b855173f2cc0bff0e6a175012f478"
+    },
+    "pci-compliance": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c5300a73867f01912e4ee08c3d6812f9c6b54bc1e8e43d7aa008e2fd1d9e21db"
+    },
+    "pdf-skill": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "106eac05ae10b14476e369532a0514335970d1f246f3f2806697059d26d7d68b"
+    },
+    "penetration-tester": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "467dd1290d34918d65de27fb09bb483c9e2043133393dd2646e285ca27553c8e"
+    },
+    "performance-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "38abbb573829ec2c1176ec2553f0d644ccb60231fc261bab1bab84a20d138499"
+    },
+    "performance-monitor": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "086528f644d92600b927cdb8bd1b2a7b2f6d762e487c081d050af3fd8e8b7702"
+    },
+    "performance-testing": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "7b2bb7b894552f87c87e5f9758afc7a82e016a8a98a1cae6c0600e06a6fb50d8"
+    },
+    "phoenix-api-channels": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "d8ba45df2c9cb81f44c3108cbe796653a9660376f3ca511b18d424eab9129015"
+    },
+    "phoenix-liveview": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "dc124360cca73cf70829ed66a94a59d4ed1d9a4c918c5aa401c5732fcd215fcc"
+    },
+    "phoenix-ops": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "221a7015ed6ed09b3b7885f220fc8d72c8a09c3f883daaf684945d6076fc881c"
+    },
+    "php-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "8f2d3367a7e43cc837fe2ccc605b2c20f16a38cb46437125c664213fc8e21aa1"
+    },
+    "platform-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1650179ab0eba40fea7932df5b50e8b9c28c3b3259209ef55516aa1a0966c54d"
+    },
+    "playwright-e2e-testing": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "4d834eae61bb2d437cffc28810894bd2173f7103b3881cbd338a523ce46b6f5a"
+    },
+    "postgres-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9d8c4ee60d11d0bfc7b12957669e83579c7e4e4a5b453a3b516ac8e430e12386"
+    },
+    "postgresql-table-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d7d040ee506a300c08a64b9ef6de9aa677b6d7251e33c3c87e0608f821a9506d"
+    },
+    "postmortem-writing": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d1f385274afa333e606c8ea48385064b72ec22d8cb724052d240b5397667d4fd"
+    },
+    "powershell-5.1-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "ebdf9b668c4071aedba4e73f085af53bfef5485575756184a3e43dddd2245f70"
+    },
+    "powershell-7-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "59d90185febb831b333aff68123f2109357be62edcb33357103ab08f89cf4af0"
+    },
+    "powershell-module-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "c89b2652224e4c998dc1db2fcc0c565a12c06258260a11048a4c04f59d8e70c9"
+    },
+    "powershell-security-hardening": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "3f23a490645c1220bc6f2ce08ea4dcfc6df157ba37dfe75899bcd17d020b373e"
+    },
+    "powershell-ui-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "8fc15262edb5aea61c01bad610b411c8d01e60462f4dc14a53b40cf65864a5a0"
+    },
+    "pptx-skill": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9c77a1e25a18baeaf1983e2f5c29ae9ef88b7215d673ce017ebfe46c1d2b4c89"
+    },
+    "pr-quality-checklist": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "521f9da8468058a1bb0af06ee55c5a3d0fee9dc9c35f3af74a7401074403f674"
+    },
+    "pre-merge": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "981bf6fbe712e41d2661b429c51a6f53cd6086c60f35715616c71c02e559b34d"
+    },
+    "prisma-orm": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "fd1ad7a6dd9ec57c0ee99e1d479481d823efcee4159ab31d8f2c3c22840015d0"
+    },
+    "product-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "18f04f2ee615462e917582ab32936da0df1957dc3b164d6a817bfb02f747888f"
+    },
+    "project-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "69c4a5db8b4acedcf70660235517c4d5977f3e4fcfdb2daed33a7d8fc779701c"
+    },
+    "projection-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "8aa4d62899515b8d90f52891b360546bcce3c8317772186c91575540423e0d7e"
+    },
+    "prometheus-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "956f3cbf12da8ad5f3551ad3e59d96ecf113a90b5bbede8ef41494980508fe02"
+    },
+    "prompt-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "69ea3414de6d3a02edd3cc1dfaee785ac49cf0279cbef32a87c66afe9cb7c581"
+    },
+    "prompt-engineering-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "b3928f5cd846977a15c15dfd04dd9180ca05639063fe92e8f4dd8afb61173d4a"
+    },
+    "protocol-reverse-engineering": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "a3942d519710b59b270f09829f2be91697ecc55206ee26bd1e233d00c29bff37"
+    },
+    "pydantic": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b5b76a23c632127fadc8b3181356095baf9c953c39dfa3cf59c9ea6663d0b0c9"
+    },
+    "pyright-type-checker": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "05b67be03c0f8c2e519aa290542c8528699e3e52635beada0a69f1afb92a2024"
+    },
+    "pytest": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "6eeda8b7f39eb2cdbd3a35ca00362b2d3942b0464e20a500fed4605337315f47"
+    },
+    "python-anti-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "6aad22ecbc1546927f2d2c6cac7ac793aa8256a6b47ded75d8c628c5fe491259"
+    },
+    "python-background-jobs": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "05cccc6b1d42b0ffbf2ded8ee6f641251adf2262ee0019f3c1a8daeb5a9be548"
+    },
+    "python-code-style": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c375dffa8d94962e10193079af1527b149f43b68d60043830d89cbce1228cec7"
+    },
+    "python-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "494fda3e5e5a1a8d83c30b0830d2f53ed71876afefb9106c411531587d5deef3"
+    },
+    "python-design-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "8646a52fb34f1b88954aa84c86d5de04fbda1f415e509045c7f3ffff5886ded4"
+    },
+    "python-error-handling": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c82529570288890c2af08bb197239e74ce56caec6576ccbfab5973dc24941dcc"
+    },
+    "python-observability": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "893f3609abe557831318a8ccd7993baeb7bacbf59ff4a1c13ebae4fc774f63c8"
+    },
+    "python-packaging": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "ff3e59808ce3fdf85a4ce0538f69f94a92d5d2863343bf26997509ec1e1ee014"
+    },
+    "python-performance-optimization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "6390615b25e5922057b15eb900d69a90db563c5f2d6bd3182be707592fc25f09"
+    },
+    "python-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "47be3b17a5093b6b8a8b4e4d4c168df53ecef453021d5c35b5bbd73335f986ef"
+    },
+    "python-project-structure": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "a9c8b41e1a906a59d574c34e889d655c5dcc5137d13528ba02e5da3943d87f5b"
+    },
+    "python-resilience": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "049e03c53aa322bf850281e44a0b267bed002fb02be8ae515d9569fd02dfa402"
+    },
+    "python-resource-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "109bcb8e4e9c619c26851744826833dd0c6ac0d7bae6c614ea987944327733b1"
+    },
+    "python-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "a16a6d7d7e0a5154a5058fd9aacf8e675368b2a4a0dc5edf0fee775169c6abe0"
+    },
+    "python-type-safety": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d87f1a0b35047b409e26a6a1f6e49982d4df044d3427b9469f22cd1c32a9bebc"
+    },
+    "qa-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "a9ba1a24903d9af3946206198b4b9390de601c74160ac8bb89a96e2ebbd1ebd6"
+    },
+    "quant-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "e9c30cd398c42dd05dddb2c8bac4b70d0a38f4ae10da67fc4fe222d1483fb740"
+    },
+    "rag-implementation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "0a68c672384c5c6aa7acb286c18f8eb9dce53a058062a8951ac0adca4d01d4ea"
+    },
+    "rails-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "abdde50c7673713f7eeeab78e4763c8a5039ade4e2b4831422a3de9a90a1dec0"
+    },
+    "react-modernization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "a69735150e9c6d66c18946872e7ffdf163912c2bd7c30f2c378f8eea3211788c"
+    },
+    "react-native-architecture": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "7c3fd00a36007d27bf707db8830101d03906c176b46d1da01dfa85e1755414d3"
+    },
+    "react-native-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "2cc71a5b89cf42bac7a8442843a84486a815c00a02e67dff85781fc8a2691e1f"
+    },
+    "react-native-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "01a55e6a7b4b2dfd4d04c3a5c8537b1e6db96e308a4ca75b15b75bb74d3076dd"
+    },
+    "react-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "e0c0bb47a6f79b8ff8d453b314436a3e593232b4fa1b65960ff8336650176db9"
+    },
+    "react-state-machines": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "7c567fe0d03913d0be5a30ff1b97e16a15949422ceafde43477472681019a7b3"
+    },
+    "react-state-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "76c3686478c0b3f60f5ee9b4626997a61605e1a625e16d31c906db99c9bc1a19"
+    },
+    "refactoring-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4bd5f04eadcba1ba6208a627e8d544980d103a3fe30a02df8280210e7ecf63f4"
+    },
+    "reporting-pipelines": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "bfcd0b32cacbbe9e70ab409aad193e12200ea88895845481e9371f392a8f6376"
+    },
+    "research-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "5709ad0f11168865cd3183a56c82371992165181648a83ed919756cb8681a1c2"
+    },
+    "responsive-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "1c756f7e216c16c91be788a0f64ae5d94451b5ffe076a1e120f671e2a3c9bd3e"
+    },
+    "risk-manager": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "335722fe5a04189555a66a978016bdbbb51059c1e2930ee5e509eddef1a16070"
+    },
+    "risk-metrics-calculation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "d0f78e2831407734f81dadb5dc31117cf3a71312fc50621025a946eae4ec9202"
+    },
+    "rust-async-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "988ec224108ffdb4ec8f4d87ad3caeeb6e54ba9c026b81286ff87ad09b55aa2e"
+    },
+    "rust-desktop-applications": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "3094111a70a9791476a03423b2c0a1441c0bfeb6292eceaaf0c363b7308c17b6"
+    },
+    "rust-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "01d68f973aca36bdc5281b1fdaafa1cf89eabb4eab377803e122c5416a3bae0b"
+    },
+    "saga-orchestration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "ea29845e48baa15f2d6addcbd500d3174b5fb03f214bebe483156fac2ff63fe6"
+    },
+    "sales-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "46b87b9f8821d62828d85b68bc7f2d66ef8162ed722975c738ddd54a98cdf558"
+    },
+    "sast-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "eea1c41ba0968097992398e4b0da5822d615b1e96716593cd5ffe49ac1714691"
+    },
+    "screen-reader-testing": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "1608c01868304d12e41f0d864d575d689c64bb9cfc93537bda52a5ce024377ba"
+    },
+    "screenshot": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "9488627c2784110968fcc7ceb0101937d292344d38cd4e847de342b49174e8f7"
+    },
+    "scrum-master": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "359caf3b7f2d5a24e5f3f701f35d835481ba7bdc8c2e5fc7b916f477db1b0197"
+    },
+    "search-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9d2a0eb772315b69ea6672ba9b8e43e977bccac317834833157e30e4950842f6"
+    },
+    "sec-edgar-pipeline": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ec0a5d792f23025afd9e6f3087e844f8d6f073fe66eb8fab87e333d86d78e32a"
+    },
+    "secrets-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "cb3e0ace1671dbb6a3faed93587a0517af3b26ea76b2467a64acfbab05b1c1d7"
+    },
+    "security-auditor": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "e2c772962bd69fbbe008f587e17418c98d606c85e6ee90a50287b0e05c0d9bfc"
+    },
+    "security-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "88409b00827c9898f0518ed4c12ffe5be7a6637adb7a2ccaf17ffba49ee372a3"
+    },
+    "security-requirement-extraction": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "81adf97487a3f9d575a94f4ab616a3f42a852e0c1d3cb0a5759615b5b274c1b5"
+    },
+    "security-scanning": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b72037b2ffc5944fe8674cce9aa4a0df018d5d2aaf1694ebc6949ddf4f0a7b01"
+    },
+    "seo-specialist": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "c8e04e221ccbbd20de8208bcbaffdc9caee1aa97acf7bbdbc202f873cd659699"
+    },
+    "service-mesh-observability": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "57d7ac78fe0f043cee38ecdef20d15915a62ffe415b5cc328bdb578dd7b262d2"
+    },
+    "session-compression": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "2200a899e2c8b20a7bf55387e4a26bd72be2ad310caf7fe23c77b844e679bf7c"
+    },
+    "shadcn-ui": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "84e0a2707a4cc03661cf5eaf0b793daa0692d2eb5a6159de0a824bf6b2ad801c"
+    },
+    "shellcheck-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "4f0e5b15d400b8165a4adef71b190e6af8e9d9e246d485d1d5b55ead65a6d2a4"
+    },
+    "similarity-search-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "2f10fcb2ba7adc30b3e737e0cace9fad589e4a2aa0094debfcbf008b65e8c7b9"
+    },
+    "skill-creator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "2bbc5174730f7ee974b5f7c0dd5f564ef97970a9fab8b97053c874c3c211da5c"
+    },
+    "slack-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "02d033cf051f179e67cdf8ca59afdfb5a9c6985b758157e6a7ce2064afc90d98"
+    },
+    "slo-implementation": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "8a02f4ff1a38890c5811132dffc11edf5b74f4583586969515966d507d8f1b5e"
+    },
+    "software-patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "2c99fe6fd4b1af815ec2d5bfd69002c99acd36f81d0924f6f25080a4ff10f246"
+    },
+    "solidity-security": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c8a45e24c3ce1a360eb8261f54539e325309f2fb2275a1f3d5d77c80568983f6"
+    },
+    "solution-architect": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "958bf7f6f6f9fbe87527577d172f17031a728d9d70782605ecb0aabd3acf9610"
+    },
+    "spark-optimization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "dfef098478dcc76a28e68044d7f2a9ca5cda2481af8e2aa7b8ffa039184f9d56"
+    },
+    "spring-boot": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "6aa83d40b38a3dded5c88ad7af03d11c245c691706930d486bd60ac1fb5e1faa"
+    },
+    "spring-boot-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "42d0816180d98994327df36f992939f183488d9ebed1b34a1205f85d1c3c7a26"
+    },
+    "sql-optimization-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "7d20c24c6f52da9697d3e1c7d2f25cc560150de643d044a5f45e300bb78884fd"
+    },
+    "sql-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "ae47a14100df6ac774e90a7d3a1250059f23c0f63afd90b7022713b591103a02"
+    },
+    "sqlalchemy-orm": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "3005549275ad146033bd9037273f2b42e40f1408b0c45f1262f6fcfa5bc1e6a8"
+    },
+    "sre-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "3a6e24fee5eaef83d563b7c90fe27257a53a04edb674fd02224fc0ce891da211"
+    },
+    "stacked-prs": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "055e7ee63371404a258d0f68f96bede633af382b83b11d560431eb4d24d95ab7"
+    },
+    "startup-financial-modeling": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "7004ba3e00abe53b7c667d94630117813a7b5923e661c27a99251136fefbde8a"
+    },
+    "startup-metrics-framework": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "dba35f7f0b591ab8a5d2a664c86ba4e92840357bd12aa49005440a938814bc7e"
+    },
+    "strategic-planning": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "2bcca379ac64d4d0bcae0e742a5d14ae353a54afc3875fb3b89b70c3f7d1faff"
+    },
+    "stride-analysis-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f6077576811734e671f516a9f35da05dbfd6569491c46b9240666f61f2231af2"
+    },
+    "stripe-integration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "bc5d0d76d6640f534371039426425284176955816a026fa1e0142c9bd160de50"
+    },
+    "supabase-backend-platform": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "fa312e1347c72c02a88622944cdb05584b158a5344fde92c96fe5add48283c60"
+    },
+    "svelte": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "184371a15b1761c45822d6beea3199e527d3295295104abf2ce391be463fd9fb"
+    },
+    "svelte5-runes-static": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c49feab3ff84cea476f57b8ca53c51f30fbe64636e215823a869e5e2972c7db2"
+    },
+    "sveltekit": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "f86e094ae13740773d8229500760b5fa899500c7a81dd3c3a1cfae6e6b47ce21"
+    },
+    "swift-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "bc6a186916cd2d01c2d8daa6c0c25d09e8ac9b50e218f8f89ecc26ad60a28e1f"
+    },
+    "systematic-debugging": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "360285bd38aed1d3a01810ea8efc5ba48c9c30d9160ebefcd07ce62a2735d196"
+    },
+    "tailwind-css": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a574d37a4286d8aba36842709d2daeafc2d1b855be0eb7e96fe350d456555066"
+    },
+    "tailwind-design-system": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f54f39ce967af3a4bba1f662c3600f0253467508d5fbbc7c545c67e102da2253"
+    },
+    "tanstack-query": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "9a0c447242caea5eb1972161d276d706be3027b707e4a3eca9fbd61d71c05a24"
+    },
+    "task-coordination-strategies": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "64b27a5d50838f2d8c03bbabcb12ccfbba57afe30b12631405376f4b6b3bd8d5"
+    },
+    "task-distributor": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "9f1b54190006fb708b9fda5f68b78789e2dbc932b6df071383013d97befe3188"
+    },
+    "tauri-event-system": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b1b6a2afe6e1ea2366b28311f3f837fb1728f8e991df245a0465ce24623e5b1f"
+    },
+    "team-communication-protocols": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "681d6f578b34317e2c0e030e22c68833991f1add92ef658bb006253bf6044eb2"
+    },
+    "team-composition-analysis": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "b731ff5e367f53a4ee525971639048f3def19021f11aa0304b8db52b1efa438a"
+    },
+    "team-composition-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "92f2bcc543a51902ec01fd752d71ffb8a914e9abd0bb7c30b7274493e4dd20bb"
+    },
+    "technical-advisory": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4762b8765293e6ff5e07713f61360f659663341edf17e89ec8d5faf75673d3c1"
+    },
+    "technical-writer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "d3e18994bd74f0bc90b651fb5b79993cfdc2bd00e8b58698874aaa0a6266dbec"
+    },
+    "temporal-python-testing": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "ce02e0fc3b4230c2be6e45764768eb6c4022e8fb2761f0ba6481a19500271937"
+    },
+    "terraform": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "29acf2e891eaf024e945668b100823a0afff2ca58163fff4969d44e4f402bf57"
+    },
+    "terraform-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "30f40f389d22404c2d1871a3ddd85625301a6a29520d50b396e15d1b30099e17"
+    },
+    "terraform-module-library": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f1cf122edb227253db47fc322b607c4f1f4841c3c4bc679a59fc072c1cacf00d"
+    },
+    "test-automator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "b8f2229463c0e3f0ba829ed8c9d299d4d27f0e2a17c3528bdec62b3168579577"
+    },
+    "test-driven-development": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "4ff4487e1299ba110a68eb3042850659066a57f95e7a54d79282eb55a932ccdc"
+    },
+    "test-quality-inspector": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "90130a4c24e6763e9d5fde0a667abc66a01ba3b68ad0ed0a9416e4fa1de78420"
+    },
+    "theme-factory": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4a5da2535f51dd0daac4cbc9d6f616f27ffccd45cef55b72dc5ffa4d78c3ddb8"
+    },
+    "threat-mitigation-mapping": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "7a943bc63f61e243ac7b0e9e24274fb13b1b9c48bd5501e4071190debbea9166"
+    },
+    "threat-modeling": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "084a613847304ca41564b4604fa4144349e3569d64002c8c762d94ab727be739"
+    },
+    "threejs-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "d301a9fda758128cea3259a7578c0a0b5f0cf871d8f684476dd231f301ae4f7d"
+    },
+    "tooling-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "e98dae5be67cab4151b02ddf55eee4495ca5b9c2f2b0893e3920e053e7cbd54c"
+    },
+    "track-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "cab59149d9527c2aec7f1eee8c8347e1be9ff6c3009e50d4359f8a6784af0c90"
+    },
+    "trend-analyst": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "2e5404c93a949c0a7522496fe9dea1b0028bf9d9dee09556a53f82dc9f7a0e70"
+    },
+    "trpc-type-safety": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "751764662fc7462c7d3d04ee4e795b679a14bb4c8e4fcc7df0465f59af24a840"
+    },
+    "turborepo-caching": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "61fadcb6a0fe4f5c218c0c537dbf2a654035a99c3e28d85845bb88dfe452f80f"
+    },
+    "typescript-advanced-types": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "ee8377c523a911be41c31037b477805773ca5ab5ade181e44ca7dd3cd8df6692"
+    },
+    "typescript-core": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "93bcc3bd5698e883b33d8b71b3178ca034adb09c73489a12afd7648b11316c39"
+    },
+    "typescript-pro": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "00bb71f9115b9fd99d9b426369713763b74297202e8ebb06c536041147a48a9b"
+    },
+    "ui-designer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "02cfd51ee54ade42e5ad21bc939232f98b6671b36b9ed7d8a34660c72bf910bb"
+    },
+    "unity-ecs-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f8f6302f4ce4f06557352bbaffbbbca7a62195968b6b183c7c3aa124f48ea523"
+    },
+    "uv-package-manager": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "3aaa4f0a3d50061e023783236866b97f326cd1fef7f27166893c302a1a3c04fa"
+    },
+    "ux-researcher": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "dc07fa488cf46c7262cf5e8e262d625e78115eb9555d97c9d209d9b438ac4ac6"
+    },
+    "validated-handler": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ef44a749c94773e8dafe5e0773a0215ae0065be3596b8915d0073955a9792b99"
+    },
+    "vb-core": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "f8a396a36038e77e2febe998ed9a58c9791d988714b8c59f3d8cada3f7057e2b"
+    },
+    "vb-database": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "5378ceab6b0d69d85a4b3079f0b24cb1ce553b8b43a7eece0bec11ca69921049"
+    },
+    "vb-winforms": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "a0b987448945fbc5cfc9d042c0f376b7f545af1a5abd03a2f4bfb42f3f20d7ff"
+    },
+    "vb6-legacy": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c792a20983415f06be709caa2784dcbb3180633a68ea5e548665a0d57f70300d"
+    },
+    "vector-index-tuning": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "742e998c7221f14b249b4423da393488b0f139705485322f700084d2a74075d4"
+    },
+    "vector-search-workflows": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b7f99621f4a6e76284faef7b28b7fb01036ddb214c8df83b2c15d7368f3cfdf0"
+    },
+    "vercel-ai": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "73fa0bc9454499b311facf256f1914d03912682243f6c4877404b10027cb4ebf"
+    },
+    "vercel-deployments-builds": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "cfbf9146692cc43c3eab494411d47dfda2a6614215b90599445f23d42232e240"
+    },
+    "vercel-functions-runtime": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "4f78a030288adbac9da3319eb8bd415bd1d24404e1cdecd039dd36f7912f8eff"
+    },
+    "vercel-networking-domains": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "53041c06f62996d3ac1015d025875ede3ee473635fdfde73b8c1584b487abc20"
+    },
+    "vercel-observability": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "55f8415cef2e219c023029903118e9444f6845f373c0324ff91d610690f516fd"
+    },
+    "vercel-overview": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "9ba7f424cde89a2a2d06d28d0182c47b8924261a25466c162f4ed12873db8177"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "9fb08ab39585f6f770d0c1c735f83e619aba2089d7ad50ba2a305eff715e08b9"
+    },
+    "vercel-security-access": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b40a19f3bf327dc0f74f59668aa33b140536dff5a86a0661e4e360db12641f32"
+    },
+    "vercel-storage-data": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "0e6a932932585a0d4d53ff1f9587f631b277227477d93a2c9b546d2a3d4b5367"
+    },
+    "vercel-teams-billing": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c269a71cbbd1dc5e9423cea98a07f6a80b305e79fc4e30a314756930774f4cfe"
+    },
+    "verification-before-completion": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "25a4f6ab1d9185747b36f2231c2715a0f5cc56ae379a3be1f96f51d10d640770"
+    },
+    "video-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "4c185d18fb49fe83e813b189dd54af234831920b56aa7157f7ccacfcee77e3ae"
+    },
+    "visual-design-foundations": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "2920bece2867b2a39301ee650b17b960c175ac60587af329f4da0e443fc33aae"
+    },
+    "vitest": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "91359371ee734e7afa48fd206846a65fff656842196fc0feeae5b1b3d5ae8918"
+    },
+    "vue": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "c66ae5214c112330ff8e6a0e38bb29e9739f99c3153e6993eb62b58924bfb7d7"
+    },
+    "vue-expert": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "986cb2a952b006d9666359ad6cd972acc5f15e8e6ea9800cd5f73c1f5d7e484d"
+    },
+    "wcag-audit-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "c26ec40131b7bc851c784bcecc3456e8fde931f38ca42aeed47ed7df6a8b05e8"
+    },
+    "web-component-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "324d0ef35018b21b37e4d7b07336894824527e06b3a8bfa0496a0c5648c626c4"
+    },
+    "web-performance-optimization": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "23ee2b57b5ea2d7ecd0d4f048dabffcb5ebcdba362346860bb2ad200d2356b7c"
+    },
+    "web3-testing": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "5ff821ecbe7f7a862a1b34060bea6b1dc2495dbe5ed62fc7183aadaa635c6268"
+    },
+    "webapp-testing-patterns": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b6bc8332acc6f4393343f8d0fd6d2a202dc79ba0646b2103a3ad1661eb015612"
+    },
+    "websocket-engineer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "3c4527103601ad60dd16ed3bafcc6a5bb60631b98e35242e177aed1c2418b9b4"
+    },
+    "windows-app-developer": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "b4b5937e1494dc8a230ca46e2ed0f5ac3fb7d8c718ad8cbe9036fa7895471482"
+    },
+    "windows-infra-admin": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "c7febdd2b2b96eae65e3d5d589f02d554bd872b6ae8db326af89ec99dc6bf260"
+    },
+    "wordpress-advanced-architecture": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "ec55f2cb9fd7efea9e428bbe492f976a68d0747efa4913ce488ed051f647d92b"
+    },
+    "wordpress-block-editor-fse": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "185ca8821e5729f42751ba5b39782097d2d7df98bfd81caada51ab83170e5047"
+    },
+    "wordpress-master": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "1b0bf24131976a3341c60927e01e3cd3f66e027d2fa42e1188332c1209ee6a52"
+    },
+    "wordpress-plugin-fundamentals": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "d78945834ebee548e318f81c1e9de1a036cff55ba602d4348fff785846aa17f6"
+    },
+    "wordpress-security-validation": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "10b57bf8688799fe758b7877c4c092bca21b23410d0822adb56c4bb1db92cfb6"
+    },
+    "wordpress-testing-qa": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "b819201c9f7a4e948c514455d3293e56d2cbf9dd0b4a0e422b2684584c0feaa6"
+    },
+    "workflow-orchestration-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "f197e2cf2b2d98aaee65a3002994b4a6ea524ad7bd16dbb1621fcbb4bfebe8f7"
+    },
+    "workflow-orchestrator": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "458454b53dc49d492a3576cbf1b6152dbf48c6cae8e529fd7c521f1473f68efb"
+    },
+    "workflow-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "99d92bc66b1b2132f96d8ef46cb352916f43a48e5acf5912db8b957d11459c8a"
+    },
+    "xlsx": {
+      "source": "404kidwiz/claude-supercode-skills",
+      "sourceType": "github",
+      "computedHash": "fea992c79dbfef9f20b33855720c6c6535584900ded9f0138fa589ea21b154e4"
+    },
+    "zod": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "7cd15789370d09e50471aa4d77198d780144a877aa32cd28e589f2eebf00a730"
+    },
+    "zustand": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "computedHash": "2491df1bdebf3ea80b15392c4f313f91975ca3efbd150b38a24380b1a9613b73"
+    }
+  }
+}

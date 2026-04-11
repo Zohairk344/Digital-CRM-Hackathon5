@@ -1,0 +1,60 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Web Support Form API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v1/webhooks/web-form": {
+      "post": {
+        "summary": "Process Web Support Form Submission",
+        "operationId": "submitWebForm",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebFormSubmission"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Ticket created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": { "type": "string", "example": "success" },
+                    "ticket_id": { "type": "string", "format": "uuid" }
+                  }
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WebFormSubmission": {
+        "type": "object",
+        "required": ["name", "email", "category", "priority", "message"],
+        "properties": {
+          "name": { "type": "string" },
+          "email": { "type": "string", "format": "email" },
+          "phone": { "type": "string", "nullable": true },
+          "category": { "type": "string", "enum": ["General", "Bug Report", "Feature Request", "Billing"] },
+          "priority": { "type": "string", "enum": ["low", "medium", "high"] },
+          "message": { "type": "string" }
+        }
+      }
+    }
+  }
+}

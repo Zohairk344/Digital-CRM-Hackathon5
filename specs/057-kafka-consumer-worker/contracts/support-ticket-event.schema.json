@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Support Ticket Event",
+  "type": "object",
+  "properties": {
+    "ticket_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "assigned", "resolved", "closed"]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["ticket_id", "subject", "description", "metadata", "status", "timestamp"]
+}

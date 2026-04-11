@@ -1,0 +1,168 @@
+openapi: 3.0.0
+info:
+  title: CRM Database Operations API
+  version: 1.0.0
+  description: API for managing the CRM core data layer (Customers, Tickets, Messages, KnowledgeBase).
+
+paths:
+  /customers:
+    post:
+      summary: Create a new customer
+      operationId: createCustomer
+      tags:
+        - Customers
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomerCreate'
+      responses:
+        '201':
+          description: Customer created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        '400':
+          description: Invalid input (e.g., both email and phone are null)
+
+  /tickets:
+    post:
+      summary: Create a support ticket
+      operationId: createTicket
+      tags:
+        - Tickets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TicketCreate'
+      responses:
+        '201':
+          description: Ticket created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ticket'
+
+  /messages:
+    post:
+      summary: Add a message to a ticket
+      operationId: createMessage
+      tags:
+        - Messages
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MessageCreate'
+      responses:
+        '201':
+          description: Message added
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Message'
+
+  /knowledge-base/search:
+    post:
+      summary: Perform semantic search on knowledge articles
+      operationId: searchKnowledgeBase
+      tags:
+        - KnowledgeBase
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query_embedding:
+                  type: array
+                  items:
+                    type: number
+                  description: 1536-dimensional vector embedding of the search query
+                limit:
+                  type: integer
+                  default: 5
+      responses:
+        '200':
+          description: List of relevant knowledge articles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/KnowledgeArticle'
+
+components:
+  schemas:
+    Customer:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        email: { type: string, format: email, nullable: true }
+        phone: { type: string, nullable: true }
+        created_at: { type: string, format: date-time }
+        is_active: { type: boolean }
+
+    CustomerCreate:
+      type: object
+      properties:
+        email: { type: string, format: email, nullable: true }
+        phone: { type: string, nullable: true }
+
+    Ticket:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        customer_id: { type: string, format: uuid }
+        status: { type: string, enum: [open, in_progress, resolved, escalated] }
+        priority: { type: string, enum: [low, medium, high] }
+        channel_origin: { type: string, enum: [web, gmail, whatsapp] }
+        metadata: { type: object, nullable: true }
+        created_at: { type: string, format: date-time }
+
+    TicketCreate:
+      type: object
+      properties:
+        customer_id: { type: string, format: uuid }
+        status: { type: string, enum: [open, in_progress, resolved, escalated], default: open }
+        priority: { type: string, enum: [low, medium, high], default: medium }
+        channel_origin: { type: string, enum: [web, gmail, whatsapp] }
+        metadata: { type: object, nullable: true }
+
+    Message:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        ticket_id: { type: string, format: uuid }
+        agent_id: { type: string, format: uuid, nullable: true }
+        sender_type: { type: string, enum: [customer, agent] }
+        channel: { type: string, enum: [web, gmail, whatsapp] }
+        content: { type: string }
+        sentiment_score: { type: number, format: float, nullable: true }
+        metadata: { type: object, nullable: true }
+        created_at: { type: string, format: date-time }
+
+    MessageCreate:
+      type: object
+      properties:
+        ticket_id: { type: string, format: uuid }
+        agent_id: { type: string, format: uuid, nullable: true }
+        sender_type: { type: string, enum: [customer, agent] }
+        channel: { type: string, enum: [web, gmail, whatsapp] }
+        content: { type: string }
+        sentiment_score: { type: number, format: float, nullable: true }
+        metadata: { type: object, nullable: true }
+
+    KnowledgeArticle:
+      type: object
+      properties:
+        id: { type: string, format: uuid }
+        title: { type: string }
+        content: { type: string }
+        embedding_model: { type: string }
