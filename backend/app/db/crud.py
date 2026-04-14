@@ -1,7 +1,13 @@
 from typing import Optional, List, Any
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
+from sqlalchemy.dialects.postgresql import insert
+from sqlalchemy.exc import IntegrityError
+import logging
+
 from app.db.models import Customer, Ticket, Message, KnowledgeArticle, OutboxEvent
+
+logger = logging.getLogger(__name__)
 
 # --- Customer CRUD ---
 
@@ -35,6 +41,54 @@ async def get_customer_by_phone(db: AsyncSession, phone: str) -> Optional[Custom
     """
     result = await db.execute(select(Customer).filter(Customer.phone == phone, Customer.is_active == True))
     return result.scalars().first()
+
+
+async def get_or_create_customer(
+    db: AsyncSession,
+    email: Optional[str] = None,
+    phone: Optional[str] = None
+) -> Customer:
+    """
+    Atomically get or create a customer using PostgreSQL UPSERT.
+    Uses INSERT ... ON CONFLICT DO NOTHING to avoid race conditions.
+    """
+    # First try to find existing customer
+    if email:
+        existing = await get_customer_by_email(db, email)
+        if existing:
+            return existing
+    if phone:
+        existing = await get_customer_by_phone(db, phone)
+        if existing:
+            return existing
+    
+    # Try to insert - use upsert to handle concurrent inserts safely
+    if email:
+        stmt = insert(Customer).values(email=email, phone=phone).on_conflict_do_nothing(
+            index_elements=['email']
+        ).returning(Customer)
+    elif phone:
+        stmt = insert(Customer).values(email=email, phone=phone).on_conflict_do_nothing(
+            index_elements=['phone']
+        ).returning(Customer)
+    else:
+        raise ValueError("At least one of email or phone must be provided")
+    
+    result = await db.execute(stmt)
+    customer = result.scalars().first()
+    
+    if customer is None:
+        # Conflict occurred - fetch existing customer
+        if email:
+            existing = await get_customer_by_email(db, email)
+            if existing:
+                return existing
+        if phone:
+            existing = await get_customer_by_phone(db, phone)
+            if existing:
+                return existing
+    
+    return customer
 
 # --- Ticket CRUD ---
 

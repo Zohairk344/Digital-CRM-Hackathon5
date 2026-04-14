@@ -62,16 +62,12 @@ async def submit_web_form(
                 priority = "urgent"
                 tags.append("negative_sentiment")
 
-            # 3. Customer lookup/creation
-            customer = await crud.get_customer_by_email(db, submission.email)
-            if not customer:
-                customer = await crud.create_customer(
-                    db, 
-                    email=submission.email, 
-                    phone=submission.phone,
-                    commit=False
-                )
-                await db.flush() # Ensure customer.id is available
+            # 3. Customer lookup/creation (thread-safe)
+            customer = await crud.get_or_create_customer(
+                db,
+                email=submission.email,
+                phone=submission.phone
+            )
             
             # 4. Ticket creation
             ticket_metadata = {

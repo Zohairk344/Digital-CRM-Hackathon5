@@ -60,16 +60,11 @@ async def receive_whatsapp_webhook(
                 priority = "urgent"
                 tags.append("negative_sentiment")
 
-            # 4. Customer lookup/creation
-            customer = await crud.get_customer_by_phone(db, sanitized_phone)
-            if not customer:
-                customer = await crud.create_customer(
-                    db,
-                    email=None,
-                    phone=sanitized_phone,
-                    commit=False
-                )
-                await db.flush()
+            # 4. Customer lookup/creation (thread-safe)
+            customer = await crud.get_or_create_customer(
+                db,
+                phone=sanitized_phone
+            )
 
             # 5. Ticket creation
             ticket_metadata = {

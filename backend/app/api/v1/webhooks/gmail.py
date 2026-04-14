@@ -51,16 +51,11 @@ async def receive_gmail_webhook(
                 priority = "urgent"
                 tags.append("negative_sentiment")
 
-            # 4. Customer lookup/creation
-            customer = await crud.get_customer_by_email(db, normalized_email)
-            if not customer:
-                customer = await crud.create_customer(
-                    db,
-                    email=normalized_email,
-                    phone=None,
-                    commit=False
-                )
-                await db.flush()
+            # 4. Customer lookup/creation (thread-safe)
+            customer = await crud.get_or_create_customer(
+                db,
+                email=normalized_email
+            )
 
             # 5. Ticket creation
             ticket_metadata = {
