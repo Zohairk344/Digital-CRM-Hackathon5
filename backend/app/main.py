@@ -2,7 +2,7 @@ import asyncio
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.v1.webhooks import web_form
+from app.api.v1.webhooks import web_form, gmail, whatsapp
 from app.core.kafka_producer import kafka_producer
 from app.core.outbox_relay import run_outbox_relay
 
@@ -45,6 +45,8 @@ app.add_middleware(
 )
 
 app.include_router(web_form.router, prefix="/api/v1")
+app.include_router(gmail.router, prefix="/api/v1")
+app.include_router(whatsapp.router, prefix="/api/v1")
 
 @app.get("/")
 async def root():
